@@ -1,0 +1,7 @@
+[Match]
+Name=usb*
+
+[Link]
+# Do not require or handle the usb interface here
+RequiredForOnline=no
+Unmanaged=yes

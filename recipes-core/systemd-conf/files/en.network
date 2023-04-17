@@ -1,0 +1,16 @@
+[Match]
+Name=en*
+KernelCommandLine=!nfsroot
+
+[Link]
+# This is an optional ethernet interface
+RequiredForOnline=no
+
+[Network]
+DHCP=yes
+
+[DHCPv4]
+UseHostname=false
+
+[DHCPv6]
+UseHostname=false

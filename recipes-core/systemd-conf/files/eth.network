@@ -1,0 +1,16 @@
+[Match]
+Name=eth*
+KernelCommandLine=!nfsroot
+
+[Link]
+# This is an internal ethernet interface, require a connection
+RequiredForOnline=yes
+
+[Network]
+DHCP=yes
+
+[DHCPv4]
+UseHostname=true
+
+[DHCPv6]
+UseHostname=true

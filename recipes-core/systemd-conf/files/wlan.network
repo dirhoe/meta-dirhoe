@@ -1,0 +1,15 @@
+[Match]
+Name=wlan*
+KernelCommandLine=!nfsroot
+
+[Link]
+RequiredForOnline=yes
+
+[Network]
+DHCP=yes
+
+[DHCPv4]
+UseHostname=true
+
+[DHCPv6]
+UseHostname=true
